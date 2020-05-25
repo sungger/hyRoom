@@ -1,0 +1,36 @@
+//
+//  hyRoom.pch
+//  hyRoom
+//
+//  Created by 江波 on 2020/4/10.
+//  Copyright © 2020 hayun. All rights reserved.
+//
+
+#ifndef hyRoom_pch
+#define hyRoom_pch
+//全局宏
+#import "UtilsMacros.h"
+#import "URLMacros.h"
+#import "FontAndColorMacros.h"
+#import "ThirdMacros.h"
+#import "CommonMacros.h"
+//基础类
+#import "AppDelegate.h"
+#import "AppDelegate+AppService.h"
+#import "PPNetworkHelper.h"
+#import "UIView+FTCornerdious.h"
+#import "UIColor+PPExtend.h"
+//第三方
+#import "YYKit.h"
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+//#import "ZJScrollPageView.h"
+#import "MBProgressHUD+xy.h"
+#import <AFNetworking/AFNetworking.h>
+
+//工具类
+#import "AppUtils.h"
+#import "WisTools.h"
+#import "UIColor+PPExtend.h"
+
+#endif /* hyRoom_pch */
